@@ -8,7 +8,7 @@
     <script src="script1.js"></script>
 </head>
 <body>
-    <div class="fd">
+    <div class="fd" id="fomFD">
         <h1>Select a City</h1>
 
         <form class="fomFD">
@@ -87,6 +87,12 @@
         let textmassage =`The Indian city of ${city} has a population of ${population}. Language spoken is ${language} and literacy rate is ${LiteracyRate+"% ."}`
         console.log(textmassage)
 
+        let resultdiv =document.createElement('div')
+        resultdiv.id="result"
+
+        document.getElementById("fomFD").appendChild(resultdiv)
+        
+        document.getElementById("result").innerHTML =textmassage
     }
 
 </script>
