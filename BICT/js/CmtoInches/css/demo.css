@@ -1,0 +1,70 @@
+@font-face
+{
+    font-family:new;
+    src:url("/media/font2/SNPro-Black.otf")
+}
+body
+{
+    font-size:20px;
+    font-family:new;
+    background-color:bisque;
+
+}
+
+@media screen and (min-width:600px)
+{
+
+
+.form1
+{  
+    margin:100px auto;
+    width:50vw;
+    height:50vh;
+    background-color: rgba(0,0,0,.9);
+   
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    color:bisque;
+    overflow:unset;
+    
+
+    
+}
+.form1 div
+{
+ 
+    margin:20px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.inputBox input
+{
+    width:100%;
+    font-size:30px;
+    border-radius:10px;
+    font-family:new;
+    color:coral;
+    background-color: bisque;
+   
+}
+
+
+.convert input
+{
+    font-family:new;
+    font-size:30px;
+    border-radius:10px;
+    color:coral;
+    background-color: bisque;
+}
+.result
+{
+    font-size:30px;
+}
+}

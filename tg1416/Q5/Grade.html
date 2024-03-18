@@ -1,0 +1,28 @@
+<html>
+<body>
+  Enter the grade:  
+	<input type="text" id="grade"><br><br>
+	<button id="btn" onclick="calGrade()">Result</button>
+	<p id="demo"></p>
+	<script>
+		function calGrade(){
+      		var num1=document.getElementById("grade").value;
+				var result;
+				switch(num1){
+					case"A":
+						result="Very Good";
+						break;
+					case"B":
+						result="Good";
+						break;
+					case"F":
+						result="Bad";
+						break;
+					default:
+						result="Invalid";
+					}
+				document.getElementById("demo").innerHTML=result;
+      }
+	</script>
+</body>
+</html>

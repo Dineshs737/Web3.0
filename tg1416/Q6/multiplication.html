@@ -1,0 +1,18 @@
+<html>
+<body>
+  Enter the Number:  
+	<input type="text" id="Multiplication"><br><br>
+	<button id="btn" onclick="calMultiplication()">Result</button>
+	<p id="demo"></p>
+	<script>
+		function calMultiplication(){
+      		var num1=document.getElementById("Multiplication").value;
+				var result;
+				for(var c=0; c<=12; c++){
+					result=Number(num1)*c;
+				document.write(num1+"*"+c+"="+result+"<br>");
+				}
+      }
+	</script>
+</body>
+</html>

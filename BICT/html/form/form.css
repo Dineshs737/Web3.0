@@ -1,0 +1,66 @@
+ body
+{
+    background-color: aqua;
+    border: 5px black;
+} 
+
+.inputboxes input
+{
+ margin:30px auto 30px 150px
+}
+
+.IndexNumber input
+{
+    margin:0px auto 30px 175px;
+}
+
+
+
+
+
+.address textarea
+{
+    margin:0px auto 30px 220px;
+}
+
+.email input
+{
+    margin: 0px auto 30px 235px;
+}
+
+ 
+#level01{
+    margin:0px auto 30px 130px; 
+}
+.year input
+{
+    margin:0px auto 30px 220px; 
+}
+
+
+.fa select
+{
+    margin:0px auto 30px 220px;
+}
+
+div[class]
+{
+    padding:20px;
+}
+
+/* class english  */
+
+.english input
+{
+    margin: 0px auto 30px 200px;
+}
+
+#Basic
+{
+    margin: 0px auto 30px 90px;;
+}
+
+.reset
+{
+    margin:0px auto 0px 175px;
+}

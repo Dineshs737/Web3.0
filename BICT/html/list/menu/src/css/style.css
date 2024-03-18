@@ -1,0 +1,52 @@
+.gpa
+{
+    width:500px;
+    height:150px;
+    border:2px solid black;
+    padding:10px;
+    margin:200px auto;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgb(114, 113, 113);
+    
+
+    
+}
+.box 
+{
+    font-size:18px;
+}
+.box input
+{
+    font-size:18px;
+    border-radius:10px
+}
+body
+{
+    background-color: greenyellow;
+}
+.gpa h1
+{
+    text-align:center;
+}
+
+.button
+{
+   
+}
+
+#reset
+{
+    margin:5px 0px 0px 90px;
+    font-size:18px;
+    background-color: rgb(55, 63, 227);
+    color:white;
+    border-radius: 10px;
+  
+}
+#submit
+{
+    font-size:18px;
+    background-color: rgb(55, 63, 227);
+    color:white;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+.lib
+{
+    width:50vw;
+    height:50vh;
+   
+    border:3px solid black;
+    padding:10px;
+    text-transform:capitalize;
+    min-width:250px;
+    
+}

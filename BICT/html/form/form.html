@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="Faculty">
+    <form>
+        <div class="inputboxes">
+            
+                <lable for="name">Name with Initials  :</lable>
+                <input type="text" name="name" id="name" value="A.K.M.Perera">         
+        </div>
+
+        <div class="IndexNumber">
+            <label for="index">Index Number :</label>
+            <input type="text" name="index" id="index" value="TG/2016/001">
+
+        </div>
+
+        <div class="address">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="6">
+                
+            </textarea>
+        </div>
+        <div class="email">
+            <label for="email">Email </label>
+            <input type="email" name="email" id="name">
+        </div>
+
+        <div class="fa">
+            <label for="faculty">Faculty</label>
+            <select name="faculty" id="faculty">
+                <option value="mannar">Humanities and Social Sciences</option>
+                <option value="vavuniya">Graduate Studies</option>
+                <option value="colombo">Engineering</option>
+                <option value="jaffna">Allied Health Science</option>
+                <option value="jaffna">Agriculture</option>
+                <!-- <option value="jaffna">Allied Health Science</option> -->
+            </select>
+        </div>
+
+        <div class="year"  >
+            <label >Year of Study</label>
+            <input type="radio" name="YearofStudy" id="level01">
+            <label for="level01">Level I</label>
+        </div>
+
+        <div class="year">
+            <input type="radio" name="YearofStudy" id="level02">
+            <label for="level02">Level II</label>
+        </div>
+
+        <div class="year">
+            <input type="radio" name="YearofStudy" id="level03">
+            <label for="level03">Level III</label>
+        </div>
+
+       
+
+        <div class="year">
+            <input type="radio" name="YearofStudy" id="level04">
+            <label for="level04">Level IV</label>
+        </div>
+
+        <div class="english" id="englishLevel">
+            <label>Pass English Levels</label>
+            <input type="checkbox" name="englishLevel" id="Basic">
+            <label for="basic">Basic</label>
+        
+
+       <div class="english">
+             <input type="checkbox" name="englishLevel" id="Intermediatary">
+             <label for="Intermediatary">Intermediatary</label>
+       </div>
+
+       
+
+
+      <div class="english">
+            <input type="checkbox" name="englishLevel" id="Advanced">
+            <label for="Advanced">Advanced</label>
+      </div>
+
+       
+        
+    </div>
+
+    <div>
+        
+    </div>
+    <button type="submit" class="submit">Submit</button>
+
+    <button type="reset" class="reset">Reset</button>
+    </form>
+
+</div>
+    
+</body>
+</html>

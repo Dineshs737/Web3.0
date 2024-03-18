@@ -1,0 +1,52 @@
+h1
+{
+    color:blue;
+    text-decoration: underline;
+}
+/*  Type selector */
+p
+{
+ color: brown;
+}
+/*  Universal Selector */
+/* *{
+  /* color: chartreuse !important; */
+/*} */
+
+#Iam
+{
+    color: aqua;
+}
+/*  Class Selector */
+.p2
+{
+  color: aquamarine;
+}
+/* chile selector */
+div>p
+{
+  color: orange;
+  text-decoration: double;
+}
+/* Descendent Selector */
+div a{
+  color: chocolate;
+}
+
+/* Sibling Selector */
+h1~h2
+{
+  color: yellow;
+  text-decoration: overline;
+}
+
+/* Adjacent Sibling Selector */
+
+h1+h2{
+  color: red;
+}
+
+body{
+  background-color: black;
+}
+

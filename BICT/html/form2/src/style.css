@@ -1,0 +1,68 @@
+body
+{
+    background:url("/media/wp2578195.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#FormRegister
+{
+    /* text-align: center; */
+    width: 500px;
+    /* height: 600px; */
+    margin: 250px auto;
+    background-color:rgba(0,0,0,.5);
+    color:white;
+    padding: 20px 20px 20px;
+    font-size:30px;
+    border-radius:15px;
+}
+
+div h2
+{
+    color:#E29578;
+    text-align: center;
+}
+
+.input label
+{
+     display:block;
+     
+}
+.input input
+{
+    width:100%;
+    font-size: 1.2em;
+    border:1px solid #006d77;
+    box-shadow:4px;
+    border-radius:10px;
+    padding:5px 10px;
+    box-sizing: border-box;
+    margin:5px 0px 15px;
+}
+
+input:focus
+{
+ background-color: #006d77;
+}
+
+.radio input
+{
+    accent-color: black;
+    transform:scale(1.6);
+
+}
+.register button
+{
+  margin: 20px 200px 50px;
+  background-color: rgb(80, 110, 230);
+  
+  
+}
+#submit
+{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    padding:5px 10px;
+    border-radius:10px;
+}

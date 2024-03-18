@@ -1,0 +1,23 @@
+
+body
+{
+  background-color:black;
+}
+.log
+{
+  background-color: rgba(255,255,255,.8);
+  width:500px;
+  margin:20px auto;
+  color:white;
+
+}
+.log h1
+{
+  color:black;
+}
+.inputBox label
+{
+
+  display:block;
+
+}

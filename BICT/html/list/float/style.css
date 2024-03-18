@@ -1,0 +1,11 @@
+.col p
+{
+    color:aquamarine;
+    width:32%;
+    float:left;
+}
+
+body
+{
+    background-color:black;
+}

@@ -1,0 +1,39 @@
+body
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:khaki;
+    color:white;
+}
+
+.fd
+{
+    width:600px;
+    border:2px solid black;
+    margin:100px auto;
+    background-color: rgba(0,0,0,.9);
+    border-radius:20px;
+    height:500px;
+}
+h1{
+    text-align: center;
+    color:khaki;
+}
+.fd div{
+    text-align: center;
+    margin:10px;
+}
+
+.inputBox input
+{
+    width:80%;
+    font-size:25px;
+    border-radius:10px;
+}
+.calculate input
+{
+    width:40%;
+    font-size:15px;
+    border-radius:5px;
+    background-color:khaki;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'
+}

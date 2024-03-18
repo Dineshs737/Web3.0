@@ -1,0 +1,59 @@
+
+@font-face
+{
+    font-family:new;
+
+    src: url("/media/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body
+{
+    background-color:black;
+    color:white;
+
+    text-transform:capitalize;
+    font-family:new;
+
+}
+
+.form
+{
+    width:40vw;
+    margin: 100px auto;
+    background-color:rgba(255,255,255,.1);
+    border-radius:20px;
+    
+    
+}
+.image img
+{
+    text-align: center;
+    border-radius: 50%;
+   
+}
+.hea
+{
+    text-align: center;
+}
+ h4
+{
+ color:yellowgreen;
+ font-size:20px;
+}
+.button button
+{
+    width:100%;
+    font-size:50px;
+    border-radius: 10px;
+    background-color:rgba(255,255,255,.1);
+    color:white;
+    padding:10px;
+    font-family:new;
+}
+    
+
+.button
+{
+    padding: 20px;
+    
+}

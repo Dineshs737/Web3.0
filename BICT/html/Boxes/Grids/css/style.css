@@ -1,0 +1,22 @@
+body
+{
+    background-color:beige;
+}
+
+.col
+{
+    display:grid;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    /* grid-template-columns:repeat(4 ,1fr); */
+    /* grid-template-columns:minmax(200px , 1fr) 1fr 1fr; */
+
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    column-gap:20px;
+    row-gap:20px;
+}
+.para
+{
+    padding:1rem;
+    background-color:steelblue;
+    color:white;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let array =['a','b','c','d','e']
+
+        console.log(array)
+        // add value to end of the array 
+        array.push('s')
+        console.log(array)
+        // delete value from end of the array
+        array.pop()
+        console.log(array)
+
+        //delete element frist value of array
+
+        array.shift()
+        console.log(array)
+
+        //add value first element of the array
+        array.unshift('d')
+        console.log(array)
+
+        // using delete methord and delete value in array
+
+       // delete array[1]
+       // console.log(array)
+       // after delete array value that place is emty space
+
+       // delete value splice methord
+       array.splice(1,1)
+       console.log(array)
+
+       //replace -and delete element
+      // array.splice(1,1,'m')
+      // consloe.log(array)
+
+      // slice(starting index, ending index)
+      //ending index not included
+
+      console.log(array.slice(1,4))
+
+      //string to array convert
+
+      let str ="a,b,c,b"
+
+      console.log(str.slice(','))
+       
+    </script>
+    
+</body>
+</html>

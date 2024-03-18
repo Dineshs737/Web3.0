@@ -1,0 +1,29 @@
+<html>
+<body>
+	<button id="btn" onclick="checkPrime()">Check prime Number</button>
+	<script>
+		function checkPrime(){
+      		var c=prompt("Enter a number to check if it prime");
+			const number=parseInt(c)
+			var i,temp;
+			for (i = 2; i <= number / 2; i++)
+
+				{
+					if (number % i == 0)
+				{
+					temp++;
+					break;
+				}
+				} 
+				if (temp == 0 && number != 1)
+				{
+				window.alert("Prime number");
+				}
+				else
+				{
+					window.alert("Not a Prime number");
+				}
+				  }
+	</script>
+</body>
+</html>

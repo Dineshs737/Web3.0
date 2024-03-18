@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Rate Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stytle.css">
+    <script src="script1.js"></script>
+</head>
+<body>
+    <div class="fd">
+        <h1>Select a City</h1>
+
+        <form class="fomFD">
+            <div class="inputBox">
+                <select id="input">
+                    <option value="Bengalure">Bengalure</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+
+                </select>
+    
+            </div>
+
+            <div class="calculate">
+                <input id="button" type="button" value="Show Statas">
+            </div>
+
+           
+        </form>
+
+
+
+       
+    </div>
+<script>const button =document.querySelector('#button')
+    button.addEventListener('click',display)
+
+    function display()
+    {
+        let population
+        let LiteracyRate
+        let language
+        const input =document.getElementById("input")
+    //   console.log("hello")
+
+        const city = input.options[input.selectedIndex].value
+
+        switch(city)
+        {
+            case 'Bengalure' : 
+
+                population =8443675
+                LiteracyRate =88.71
+                language = "Kannada"
+
+             break
+
+            case 'Chennai' :
+
+                population = 4646732
+                LiteracyRate=90.20
+                language="Tamil"
+
+             break
+
+            case 'Delhi' :
+                
+                population=16787941
+                LiteracyRate=86.20
+                language= "Hindi"
+            break
+
+            case 'Mumbai' :
+                
+                population=12442373
+                LiteracyRate=89.73
+                language= "Marathi"
+            break
+
+
+            
+        }
+    
+      
+        let textmassage =`The Indian city of ${city} has a population of ${population}. Language spoken is ${language} and literacy rate is ${LiteracyRate+"% ."}`
+        console.log(textmassage)
+
+    }
+
+</script>
+</body>
+</html>

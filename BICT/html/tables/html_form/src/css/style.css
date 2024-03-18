@@ -1,0 +1,88 @@
+
+@font-face
+{
+    font-family:myfont1;
+    src:url("/media/font/Dudka\ Bold.ttf");
+    
+
+}
+
+@font-face
+{
+    font-family:myfont2;
+    src:url("/media/font/font2/SNPro-Black.otf");
+}
+
+
+body
+{
+    
+    background-image:url("/media/images/background.jpg");
+}
+h2{
+    font-family:myfont1;
+    color:red;
+    text-align:center;
+}
+
+.formN01 
+{
+    width:500px;
+    background-color:rgba(0,0,0,.4);
+    margin:10px auto;
+    padding:20px;
+    font-size:30px;
+    color:white;
+    border-radius:20px;
+    font-family:myfont2;
+
+}
+
+.input input
+{
+ display:block;
+ width:100%;
+ font-size:1.5em;
+ border-radius:10px;
+ border-color:rgb(167, 167, 156);
+ padding:5px 10px;
+ box-sizing:border-box;
+ margin:5px auto 15px auto;
+ 
+}
+.input input:focus
+{
+    background-color:#83c5be;
+}
+.gender label
+{
+    display :inline;
+}
+
+.submit 
+{
+    text-align: center;
+    
+}
+
+.submit button
+{
+    margin-top:5px;
+    background-color: rgb(21, 88, 212);
+    font-size:30px;
+    border-radius:10px;
+    color:white;
+    padding:5px;
+    font-family:myfont2;
+
+   
+}
+
+.gender input
+{
+    accent-color:red;
+    transform:scale(1.6);
+    
+
+}
+

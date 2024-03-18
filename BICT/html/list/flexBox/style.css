@@ -1,0 +1,60 @@
+.para1
+{
+    background-color: aquamarine;
+    flex:1;
+    order:1;
+}
+.para2
+{
+    background-color: rgb(175, 123, 27);
+    flex:1;
+    order:3;
+}
+
+.para3
+{
+    background-color:bisque;
+    flex:2;
+    order:2;
+}
+
+@media screen and (min-width:801px)
+{
+    .col
+    {
+        display:flex;
+        margin:0px 0px 0px 5px;
+        flex-direction:column;
+
+    }
+}
+
+.outerBox
+{
+    background-color: beige;
+    min-height:400px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    /* flex-direction:column; */
+}
+.box2
+{
+    flex-grow: 2;
+    flex-basis:0;
+}
+.box3
+{
+    flex-grow:1;
+    flex-basis:0;
+}
+
+.box 
+{
+    width: 100px;
+    height:100px;
+    background-color:blue;
+    border:2px solid black;
+
+}

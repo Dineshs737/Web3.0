@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <form action="w1.html" method="GET">
+        <div>
+            <lable for="username">User Name</lable>
+            <input type="text" name="username" id="username" placeholder="Enter User Name" minlength="6" maxlength="12" required>
+        </div>
+
+        <div>
+            <lable for ="password">Password</lable>
+            <input type="password" name="Password" id="password" placeholder="Enter Your Password" minlength="8" required>
+        </div>
+
+        <!-- <div>
+            <label for="yearofbirth">Year of birth</label>
+            <input type="number" name="yearofbirth" id="yearofbirth" value="2000" min="1999" step="10">
+        </div> -->
+
+        <div>
+            <label for="email">Email</label>
+            <input type="date" name="DateOfBirth" id="DateOfBirth" min="1900-01-01">
+        </div>
+
+        <div>
+            <labe for="about"> about me</label>
+            <textarea name="about" id="about" cols="40" rows="6" ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+@font-face
+{
+    font-family: MyFirstFont1;
+    src :url("/fontFmaily/fontf1/Wolfers-Regular.otf");
+    
+}
+
+@font-face
+{
+    font-family: MyFirstFont2;
+    src :url("/fontFmaily/fontf2/LTSoul-Bold.otf");
+    
+}
+
+h1
+{
+    font-size: 3em;
+
+    font-style:oblique;
+
+    font-weight:normal;
+
+    text-transform:uppercase;
+    
+    font-family:MyFirstFont1;
+
+    letter-spacing:.3em;
+
+    border:1px solid black;
+}
+
+p
+{
+    font-size:1.2em;
+    line-height:2em;
+    word-spacing:.5em;
+    text-align:justify;
+    font-family:MyFirstFont2;
+    text-shadow:5px 8px 5px gray;
+
+}
+
+.p2
+{
+    background-color:orange;
+    max-width:1200px;
+    min-width: 700px;
+
+    min-height:1400px;
+    max-height: 1500px;
+
+    /* border:2px solid black; */
+
+    /* border-top-width:7px;
+    border-color:black;
+    border-style:solid; */
+
+    padding:20px;
+
+    /* margin:40px auto 40px auto;
+    border-radius:80px 50px;
+    -moz-border-radius:80px 50px;
+    -webkit-border-radius:80px 50px;
+
+    box-shadow :10px 10px 10px gray;
+    -moz-box-shadow:10px 10px 10px gray;
+    -webkit-box-shadow:10px 10px 10px gray; */
+
+    border:30px solid black;
+
+    border-image: url("/images/border.png") 30 round;
+} 
+
+.p2::first-letter
+{
+    font-size:3em;
+   
+}
+
+a:visited
+{
+    text-decoration: none;
+    /* color:black; */
+}
+
+a:link 
+{
+    color:blue;
+}

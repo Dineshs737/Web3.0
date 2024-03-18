@@ -1,0 +1,24 @@
+.para1
+{
+    background-color: aquamarine;
+}
+.para2
+{
+    background-color: rgb(175, 123, 27);
+}
+
+.para3
+{
+    background-color:bisque;
+}
+
+@media screen and (min-width:801px)
+{
+    .col p 
+    {
+        width:30%;
+        float:left;
+        padding:15px;
+        margin:0px 0px 0px 15px;
+    }
+}
