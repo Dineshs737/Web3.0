@@ -34,7 +34,13 @@
 
        
     </div>
-<script>const button =document.querySelector('#button')
+<script>
+ let resultdiv =document.createElement('div')
+        resultdiv.id="result"
+
+        document.getElementById("fomFD").appendChild(resultdiv)
+
+const button =document.querySelector('#button')
     button.addEventListener('click',display)
 
     function display()
@@ -87,10 +93,7 @@
         let textmassage =`The Indian city of ${city} has a population of ${population}. Language spoken is ${language} and literacy rate is ${LiteracyRate+"% ."}`
         console.log(textmassage)
 
-        let resultdiv =document.createElement('div')
-        resultdiv.id="result"
-
-        document.getElementById("fomFD").appendChild(resultdiv)
+       
         
         document.getElementById("result").innerHTML =textmassage
     }
