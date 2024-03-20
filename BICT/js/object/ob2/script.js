@@ -9,4 +9,5 @@ console.log(items)
 for(let key in items)
 {
     console.log(items[key])
+    
 }
