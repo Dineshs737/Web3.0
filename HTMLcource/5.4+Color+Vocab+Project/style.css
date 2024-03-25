@@ -1,0 +1,35 @@
+.red
+{
+    color:red;
+}
+
+.blue
+{
+    color:blue;
+}
+
+.orange
+{
+    color:orange;
+}
+.redbox
+{
+    width:200px;
+    height:200px;
+    background-color:red;
+}
+
+.BlueBox
+{
+    width:200px;
+    height:200px;
+    background-color:blue;
+}
+
+
+.OrangeBox
+{
+    width:200px;
+    height:200px;
+    background-color:orange;
+}
